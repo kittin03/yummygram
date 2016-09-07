@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import { Router, Route, Link, hashHistory } from 'react-router'
+import { Link } from 'react-router'
 
 class Navigation extends Component {
   render() {
     return(
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Photos</Link>
+        <Link to="/counter">Counter</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>
