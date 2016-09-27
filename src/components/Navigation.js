@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
-import { Button, Badge, Space } from 'rebass'
+import { Button, Space } from 'rebass'
 
 class Navigation extends Component {
   render() {
